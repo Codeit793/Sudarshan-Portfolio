@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Upcoming Projects - Sudarshan's Portfolio" />
+    <meta name="keywords" content="upcoming, projects, portfolio" />
+    <meta name="author" content="Sudarshan" />
+
+    <title>Upcoming - Sudarshan's Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* =========================
+   UPCOMING PAGE ONLY
+   ========================= */
+
+        .upcoming {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 120px;
+            /* offset for fixed navbar */
+            text-align: center;
+        }
+
+        .upcoming-container {
+            max-width: 700px;
+            padding: 0 2rem;
+        }
+
+        .upcoming-title {
+            font-size: 4rem;
+            font-weight: 700;
+            color: #ff00ff;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+
+        .upcoming-subtitle {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #8b5cf6;
+            margin-bottom: 1.5rem;
+        }
+
+        .upcoming-description {
+            font-size: 1.1rem;
+            color: #aaa;
+            line-height: 1.8;
+        }
+
+        /* Optional glow divider */
+        .upcoming-divider {
+            width: 120px;
+            height: 3px;
+            margin: 2rem auto;
+            background: linear-gradient(90deg, #8b5cf6, #ff00ff);
+            border-radius: 10px;
+        }
+
+        /* Subtle pulse effect (optional) */
+        .upcoming-badge {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.6rem 1.4rem;
+            border-radius: 999px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #fff;
+            background: rgba(139, 92, 246, 0.15);
+            border: 1px solid rgba(139, 92, 246, 0.4);
+            animation: upcoming-pulse 2s infinite;
+        }
+
+        @keyframes upcoming-pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.6);
+            }
+
+            70% {
+                box-shadow: 0 0 0 12px rgba(139, 92, 246, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(139, 92, 246, 0);
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .upcoming-title {
+                font-size: 2.8rem;
+            }
+
+            .upcoming-subtitle {
+                font-size: 1.2rem;
+            }
+
+            .upcoming-description {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Sudarshan's Portfolio</h2>
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="Files/about.html" class="nav-link2">About</a>
+                <a href="#about" class="nav-link">Work</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Upcoming Simple Section -->
+    <section class="upcoming">
+        <div class="upcoming-container">
+            <h1 class="upcoming-title">Upcoming</h1>
+            <p class="upcoming-subtitle">Resume Will Available when I will Complete My Studies</p>
+            <div class="upcoming-divider"></div>
+            <p class="upcoming-description">
+                New and exciting projects are currently under development.
+                Stay tuned for upcoming releases.
+            </p>
+            <span class="upcoming-badge">🚧 Work in Progress</span>
+        </div>
+    </section>
+
+</body>
+
+</html>
