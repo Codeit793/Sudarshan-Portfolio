@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cards - Sudarshan Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cards-style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Sudarshan</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="cards.html" class="nav-link">Cards</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Marquee Announcement Bar -->
+    <div class="marquee-wrapper">
+        <div class="marquee">
+            <span>✨ Welcome to My Card Gallery ✨ Explore my work and projects ✨ Welcome to My Card Gallery ✨</span>
+        </div>
+    </div>
+
+    <!-- Cards Section -->
+    <section class="cards-hero">
+        <div class="cards-container">
+            <div class="section-header">
+                <h1 class="cards-title">Featured Collections</h1>
+                <p class="cards-subtitle">Explore my latest projects, skills, and achievements</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="project">Projects</button>
+                <button class="filter-btn" data-filter="skill">Skills</button>
+                <button class="filter-btn" data-filter="achievement">Achievements</button>
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="cards-grid">
+                <!-- Project Cards -->
+                <div class="card" data-category="project">
+                    <div class="card-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">E-Commerce Platform</h3>
+                        <p class="card-description">A full-stack e-commerce solution with payment integration and user authentication.</p>
+                        <div class="card-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="project">
+                    <div class="card-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Mobile App Design</h3>
+                        <p class="card-description">User-friendly mobile application with intuitive UI and smooth animations.</p>
+                        <div class="card-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                        <a href="#" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="project">
+                    <div class="card-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Data Analytics Dashboard</h3>
+                        <p class="card-description">Real-time analytics dashboard with interactive charts and data visualization.</p>
+                        <div class="card-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">D3.js</span>
+                        </div>
+                        <a href="#" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Skill Cards -->
+                <div class="card" data-category="skill">
+                    <div class="card-image">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Frontend Development</h3>
+                        <p class="card-description">Expert in modern frontend frameworks and responsive web design.</p>
+                        <div class="card-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React</span>
+                        </div>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="skill">
+                    <div class="card-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Backend Development</h3>
+                        <p class="card-description">Proficient in building scalable server-side applications and APIs.</p>
+                        <div class="card-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="skill">
+                    <div class="card-image">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">UI/UX Design</h3>
+                        <p class="card-description">Creating beautiful and user-centric designs with attention to detail.</p>
+                        <div class="card-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Design Systems</span>
+                            <span class="tag">Prototyping</span>
+                        </div>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Achievement Cards -->
+                <div class="card" data-category="achievement">
+                    <div class="card-image achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Best Developer Award</h3>
+                        <p class="card-description">Recognized for outstanding contributions to web development in 2024.</p>
+                        <div class="card-tags">
+                            <span class="tag">Award</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <a href="#" class="card-link">View Award <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="achievement">
+                    <div class="card-image achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Certified Developer</h3>
+                        <p class="card-description">Completed advanced certifications in full-stack development.</p>
+                        <div class="card-tags">
+                            <span class="tag">Certification</span>
+                            <span class="tag">Verified</span>
+                        </div>
+                        <a href="#" class="card-link">View Certificate <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="achievement">
+                    <div class="card-image achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">5-Star Rating</h3>
+                        <p class="card-description">Consistent 5-star ratings from clients across multiple projects.</p>
+                        <div class="card-tags">
+                            <span class="tag">Rating</span>
+                            <span class="tag">Trusted</span>
+                        </div>
+                        <a href="#" class="card-link">See Reviews <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="cards-script.js"></script>
+</body>
+</html>
