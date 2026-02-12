@@ -1,42 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes and Documents</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Notes • Sudarshan</title>
+
+<link rel="icon" href="../Assets/favicon.ico">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <header>
-        <h1>Notes and Documents</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="Notes.html">Notes</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Latest Notes</h2>
-            <ul>
-                <li><a href="#">Note 1: Project A - Overview</a></li>
-                <li><a href="#">Note 2: Project B - Key Points</a></li>
-                <li><a href="#">Note 3: Meeting with Team</a></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Documents</h2>
-            <ul>
-                <li><a href="#">Document 1: Research Paper</a></li>
-                <li><a href="#">Document 2: Proposal</a></li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Codeit793. All rights reserved.</p>
-    </footer>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+<div class="nav-container">
+
+<div class="nav-logo">
+<h2>Sudarshan's Portfolio</h2>
+</div>
+
+<nav class="nav-menu" id="nav-menu">
+<a href="../index.html#home" class="nav-link">Home</a>
+<a href="about.html" class="nav-link2">About</a>
+<a href="../index.html#projects" class="nav-link">Projects</a>
+<a href="../index.html#contact" class="nav-link">Contact</a>
+<a href="Notes.html" class="nav-link2">Notes</a>
+</nav>
+
+<div class="hamburger" id="hamburger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+</div>
+</header>
+
+<!-- ================= HERO TITLE ================= -->
+<section class="projects" style="padding-top:120px;">
+<div class="projects-container">
+
+<h2 class="section-title">My Notes</h2>
+
+<div class="projects-grid">
+
+<!-- NOTE CARD 1 -->
+<div class="project-card">
+<h3>Transformer Power Consumption</h3>
+<p>
+Learn how transformer power loss works, formulas explained simply with examples.
+</p>
+
+<li class="view-project-li">
+<a class="view-project-anchor" href="notes/transformer.html">
+View Note
+</a>
+</li>
+</div>
+
+<!-- NOTE CARD 2 -->
+<div class="project-card">
+<h3>Rotational Motion Basics</h3>
+<p>
+Understand angular velocity, torque, and rotational equations in easy steps.
+</p>
+
+<li class="view-project-li">
+<a class="view-project-anchor" href="notes/rotation.html">
+View Note
+</a>
+</li>
+</div>
+
+<!-- NOTE CARD 3 -->
+<div class="project-card">
+<h3>Carbon Fuels Properties</h3>
+<p>
+Why carbon compounds are used as fuels with simplified chemistry explanation.
+</p>
+
+<li class="view-project-li">
+<a class="view-project-anchor" href="notes/carbon.html">
+View Note
+</a>
+</li>
+</div>
+
+<!-- NOTE CARD 4 -->
+<div class="project-card">
+<h3>Coming Soon</h3>
+<p>
+More JEE notes and solved problems will be added here soon.
+</p>
+
+<li class="view-project-li">
+<a class="view-project-anchor" href="#">
+View Note
+</a>
+</li>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ================= FOOTER / CONTACT ================= -->
+<section class="contact">
+<div class="contact-container">
+
+<h2 class="section-title">Connect With Me</h2>
+
+<div class="social-buttons">
+
+<a href="https://github.com/Codeit793" class="social-btn github" target="_blank">
+<span class="social-icon">📱</span>
+GitHub
+</a>
+
+<a href="https://linkedin.com/in/sudarshan-ingle-461a1338a" class="social-btn linkedin" target="_blank">
+<span class="social-icon">💼</span>
+LinkedIn
+</a>
+
+<a href="https://x.com/Ingle8983" class="social-btn twitter" target="_blank">
+<span class="social-icon">🐦</span>
+Twitter
+</a>
+
+<a href="https://www.instagram.com/sudrshan_ingle200/" class="social-btn instagram" target="_blank">
+<span class="social-icon">📸</span>
+Instagram
+</a>
+
+</div>
+
+<div class="other-links">
+<a href="https://drive.google.com/uc?export=download&id=1nb9t5yvZe6xpMdSaTFMrAfHQaDvRqkPo"
+class="contact-btn resume"
+target="_blank">
+
+<span class="contact-icon">📄</span>
+View Resume
+</a>
+</div>
+
+</div>
+</section>
+
+<script src="script.js"></script>
+
 </body>
 </html>
